@@ -32,6 +32,4 @@ python3 -m venv .venv
 PYTHONPATH=src .venv/bin/python leo_desktop.py
 ```
 
-## 公開範圍
 
-這是精簡的備審展示版本，不包含 `.env`、金鑰、實驗輸出、執行紀錄、第三方 vendor 資料或完整研究資料集；因此不保證能獨立完成所有實驗情境。
