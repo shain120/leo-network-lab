@@ -1,0 +1,16 @@
+[project]
+name = "leo-network-lab"
+version = "0.1.0"
+description = "Reusable Docker node images and strict name-to-role mappings for LEO experiments"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src"]
+
+[tool.mypy]
+python_version = "3.12"
+files = ["src/leo_network_lab"]
+check_untyped_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true

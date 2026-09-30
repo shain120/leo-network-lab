@@ -1,0 +1,6 @@
+# Native desktop and Docker client. Containernet/Mininet remain system-provisioned.
+PySide6==6.8.3
+docker==7.1.0
+pytest==8.3.5
+pytest-qt==4.4.0
+mypy==1.15.0
